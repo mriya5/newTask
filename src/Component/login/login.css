@@ -1,0 +1,55 @@
+.dotBox {
+    height: 20px;
+    width: 20px;
+    background: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px
+}
+
+.checkClass {
+    height: 15px; 
+    width: 15px;
+    margin-left: 5px
+}
+
+.login-box input{
+    outline: none;
+}
+
+.login-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 15px;
+    background-color: #00A4CC;
+    border: 1px solid #00A4CC;
+    transition: all .1s;
+    color: white;
+}
+
+.loginBtn img{
+    color: #00A4CC;
+    width: 30px;
+}
+
+.login-btn:hover {
+    border: 1px solid #00A4CC;
+    color: #00A4CC;
+    background-color: white;
+    transition: all .1s;
+}
+
+.logoutContainer {
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(240, 225, 225);
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
